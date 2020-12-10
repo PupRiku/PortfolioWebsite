@@ -17,8 +17,7 @@ h1 {
     margin: 0 auto;
 }
 
-table, th, td {
-    border: 1px solid black;
+table, td {
     text-align: center;
     vertical-align: center;
     font-family: 'Raleway';
@@ -29,7 +28,13 @@ table {
     margin-right: auto;
 }
 
-.images img {
+td {
     width: 100px;
+    height: 100px;
+}
+
+.images img {
+    width: 1px;
     height: auto;
+    opacity: 0;
 }
