@@ -12,47 +12,47 @@ aboutText.onmouseenter = function() {
   aboutImg.style.width = '100px';
   aboutImg.style.height = 'auto';
   aboutImg.style.opacity = '1';
-  aboutImg.style.transitionDuration = '2s';
+  aboutImg.style.transitionDuration = '1s';
 };
 aboutText.onmouseleave = function() {
   aboutImg.style.width = '1px';
   aboutImg.style.height = 'auto';
   aboutImg.style.opacity = '0';
-  aboutImg.style.transitionDuration = '2s';
+  aboutImg.style.transitionDuration = '1s';
 };
 skillText.onmouseenter = function() {
   skillImg.style.width = '100px';
   skillImg.style.height = 'auto';
   skillImg.style.opacity = '1';
-  skillImg.style.transitionDuration = '2s';
+  skillImg.style.transitionDuration = '1s';
 };
 skillText.onmouseleave = function() {
   skillImg.style.width = '1px';
   skillImg.style.height = 'auto';
   skillImg.style.opacity = '0';
-  skillImg.style.transitionDuration = '2s';
+  skillImg.style.transitionDuration = '1s';
 };
 projectsText.onmouseenter = function() {
   projectsImg.style.width = '100px';
   projectsImg.style.height = 'auto';
   projectsImg.style.opacity = '1';
-  projectsImg.style.transitionDuration = '2s';
+  projectsImg.style.transitionDuration = '1s';
 };
 projectsText.onmouseleave = function() {
   projectsImg.style.width = '1px';
   projectsImg.style.height = 'auto';
   projectsImg.style.opacity = '0';
-  projectsImg.style.transitionDuration = '2s';
+  projectsImg.style.transitionDuration = '1s';
 };
 contactText.onmouseenter = function() {
   contactImg.style.width = '100px';
   contactImg.style.height = 'auto';
   contactImg.style.opacity = '1';
-  contactImg.style.transitionDuration = '2s';
+  contactImg.style.transitionDuration = '1s';
 };
 contactText.onmouseleave = function() {
   contactImg.style.width = '1px';
   contactImg.style.height = 'auto';
   contactImg.style.opacity = '0';
-  contactImg.style.transitionDuration = '2s';
+  contactImg.style.transitionDuration = '1s';
 };
