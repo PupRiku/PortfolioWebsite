@@ -9,7 +9,8 @@ h1 {
     text-align: center;
 }
 
-.home-intro {
+.home-intro, 
+#description {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 300px;
     text-align: center;
