@@ -56,13 +56,3 @@ contactText.onmouseleave = function() {
   contactImg.style.opacity = '0';
   contactImg.style.transitionDuration = '2s';
 };
-
-
-const source = document.getElementById('popup').innerHTML;
-const template = Handlebars.compile(source);
-const context = {
-    greeting: 'Hello World!'
-  }
-const compiledHtml = template(context);
-const fill = document.getElementById('description');
-fill.innerHTML = compiledHtml;
