@@ -34,16 +34,29 @@ table, td {
 table {
     margin-left: auto;
     margin-right: auto;
+    border-spacing: 20px 0px;
 }
 
 td {
     width: 100px;
+}
+
+.buttons td {
+    background-color: orangered;
+    height: 50px;
+    border-radius: 5px;
+    filter: drop-shadow(0px 10px 10px black)
+}
+
+.images td {
     height: 100px;
 }
 
 td a {
     color: white;
     text-decoration: none;
+    width: 100%;
+    padding: 15px 30px;
 }
 
 .images img {
