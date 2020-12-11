@@ -2,6 +2,57 @@
     font-family: 'Raleway';
     src: url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap')
 }
+
+.global {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.global h1 {
+    font-family: 'Raleway';
+    font-size: 26px;
+    color: white;
+    padding-left: 15px;
+}
+
+.global ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.global li {
+    float: right;
+    font-family: 'Raleway';
+}
+
+.global li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 28px 30px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: orangered;
+}
+
+.global li a:hover {
+    color: black;
+    background-color: aquamarine;
+    transition-duration: 1s;
+}
+
+.global li a:active {
+    color: black;
+    background-color: rgb(127, 178, 255);
+    transition-duration: 0s;
+}
+
 body {
     background-image: url("../images/BG_Home.jpg");
     background-repeat: no-repeat;
@@ -18,7 +69,7 @@ h1 {
 }
 
 .home-intro{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     width: 300px;
     text-align: center;
     margin: 0 auto;
@@ -77,4 +128,40 @@ td a:active {
     height: auto;
     opacity: 0;
     filter: drop-shadow(0px 10px 10px black)
+}
+
+.content {
+    width: 66%;
+    margin: 80px auto 0 auto;
+    padding: 0 20px 20px 20px;
+    color: white;
+    font-size: 18px;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgba(0,0,0,0.75);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 100px auto 100px auto 100px auto;
+    column-gap: 25px;
+}
+
+.content h2 {
+    grid-column: 1 / span 2;
+    font-size: 2rem;
+    font-family: 'Raleway';
+    text-align: center;
+    color: white;
+}
+
+.content img {
+    margin: 0 auto;
+}
+
+.content a {
+    color: orangered;
+    text-decoration: none;
+}
+
+.content a:hover {
+    color: aquamarine;
+    text-decoration: none;
 }
