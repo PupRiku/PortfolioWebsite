@@ -189,6 +189,12 @@ td a:active {
     color: white;
 }
 
+.skillImg img {
+    display: inline;
+    height: 100px;
+    padding: 10px;
+}
+
 .resume img {
     margin: 0 auto;
 }
