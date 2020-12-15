@@ -286,6 +286,7 @@ td a:active {
 .contactInfo a {
     color: orangered;
     text-decoration: none;
+    text-align: center;
 }
 
 .contactInfo a:hover {
