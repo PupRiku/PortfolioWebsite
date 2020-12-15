@@ -240,3 +240,7 @@ td a:active {
     text-align: center;
     color: white;
 }
+
+.auditionHub img {
+    width: 500px;
+}
