@@ -144,7 +144,8 @@ td a:active {
     column-gap: 25px;
 }
 
-.content h2 {
+.content h2,
+.auditionHub h2 {
     grid-column: 1 / span 2;
     font-size: 2rem;
     font-family: 'Raleway';
@@ -207,4 +208,35 @@ td a:active {
 .resume a:hover {
     color: aquamarine;
     text-decoration: none;
+}
+
+.auditionHub {
+    width: 66%;
+    margin: 80px auto 0 auto;
+    padding: 0 20px 20px 20px;
+    color: white;
+    font-size: 18px;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgba(0,0,0,0.75);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px auto auto 100px auto 100px auto 100px auto 100px auto;
+    column-gap: 25px;
+}
+
+.subtitle,
+.projDescription {
+    grid-column: 1 / span 2;
+} 
+
+.subtitle {
+    text-align: center;
+}
+
+.auditionHub h3 {
+    grid-column: 1 / span 2;
+    font-size: 1.5rem;
+    font-family: 'Raleway';
+    text-align: center;
+    color: white;
 }
