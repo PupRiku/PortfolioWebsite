@@ -279,8 +279,8 @@ td a:active {
 }
 
 .contactInfo img {
-    width: 500px;
     margin: 0 auto;
+    width: 150px;
 }
 
 .contactInfo a {
@@ -291,4 +291,8 @@ td a:active {
 .contactInfo a:hover {
     color: aquamarine;
     text-decoration: none;
+}
+
+.contactInfo p{
+    text-align: center;
 }
