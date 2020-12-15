@@ -139,7 +139,7 @@ td a:active {
     font-family: Helvetica, Arial, sans-serif;
     background-color: rgba(0,0,0,0.75);
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px auto 100px auto 100px auto;
     column-gap: 25px;
 }
