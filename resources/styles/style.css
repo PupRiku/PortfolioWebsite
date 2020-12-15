@@ -245,3 +245,13 @@ td a:active {
     width: 500px;
     margin: 0 auto;
 }
+
+.auditionHub a {
+    color: orangered;
+    text-decoration: none;
+}
+
+.auditionHub a:hover {
+    color: aquamarine;
+    text-decoration: none;
+}
